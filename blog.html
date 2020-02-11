@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="./blog.css" type = "text/css" rel = "stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Nancy Li | Blog</title>
+  </head>
+  <body>
+    
+   <script>
+      /* When the user clicks on the button, toggle between hiding and showing the dropdown content */
+        function myFunction() {
+          document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+     // Close the dropdown if the user clicks outside of it
+          window.onclick = function(e) {
+            if (!e.target.matches('.dropbtn')) {
+  	       var myDropdown = document.getElementById("myDropdown");
+              if (myDropdown.classList.contains('show')) {
+                  myDropdown.classList.remove('show');
+              }
+            }
+          }
+   </script> 
+ 
+    <div class = "navigate">
+   	    <a href ="./index.html">home</a>
+    	<a href ="./blog.html">blog</a>
+    	<a href ="./experience.html">experience</a>
+        <a href ="./photography.html">photography</a>
+        <a href = "music.html">music</a>
+    </div>
+      <br>
+
+    <div class="navbar">
+       <div class="dropdown">
+         <button class="dropbtn" onclick="myFunction()">content</button>
+           <div class="dropdown-content" id="myDropdown">
+              <a class = "entries" href = "#gratitude">gratitude</a>
+              <a id = "topPost" class = "entries" href="#uncertainty">uncertainty; 			spontaneity</a>
+           </div>
+       </div> 
+    </div>
+      <br><br>
+    <h1>blog</h1>
+    
+    <div class = "post">
+        <h2 id = "gratitude">gratitude <br> <div class = "date">10/02/2020<div></h2>
+        <p>
+            hello this is placeholder
+            
+        </p>
+        <br><br>
+        <h2 id = "uncertainty">uncertainty; spontaneity <br> <div class = "date">18/06/2019<div></h2>
+       <p>"What do YOU want to do?"<br><br>
+
+           This question is an old enemy of mine. It's acted as the tagline for multiple phrases I've heard; a fill in the blank with only one option. "Where should we go out to eat today? _____." "I'm not looking for anything right now, but _____." "I'm not telling you to change your major. I'm asking you, _____."<br><br>
+
+           It's a phrase so persistent and so easy to hate. And I DID hate those words because my initial response was always, "I don't know." If you know me at all, you know that I hate not knowing. Not knowing what ice cream flavour to pick and oh god you don't have enough time to keep contemplating because there's a line forming behind you and the cashier is getting impatient. Not knowing how to dive into a pool and now it's embarrassing to go swimming because you're the only one who doesn't know how and you can't go back to when you were taught it (and refused to learn because you were scared) at age 8. Not knowing if what I'm doing is what I really want because I was only fifteen when I started applying to schools.<br><br>
+
+           I. Don't. Know.<br><br>
+
+           I was never super spontaneous. Doing things without a plan? Without structure? Without knowing ALL the details??? TrYiNg nEw tHinGs???!!! (this is satirical, okay). The idea was foreign to me. My solution to this was to aggressively plan EVERYTHING so I would never be caught off guard. I'd look up restaurant menus and decide what I wanted to eat days, even weeks, before I had dinner plans. I made a Google Docs filled to the brim with food suggestions, hangout spots, and leisurely activities so I'd always have an idea to pitch to my friends on our day off. I had what I thought was my future career path planned out by the time I was seven. This routine of preparing for every possible situation my mind could fathom went on for what seems like years.<br><br>
+
+           Yet, despite my best efforts to keep things in my control, I soon found out that not everything was as predictable as I'd thought (wow, big surprise huh?). I was faced with the harsh reality of having to DEAL WITH the uncertainty. No matter how uncomfortable it made me to not have some sort of template I could look to, some sort of schedule to follow, I had to suck it up and go with it.<br><br>
+
+           This realization solidified when university began. I no longer had my sister by my side (of whom I'd done absolutely everything with for the last decade) because she had gone down south to North Carolina while I took to my new home in Toronto. I felt so unbelievably out of my element. I mean, I'd wanted to study health sciences, go to med school, and become a dentist since I was four. FOUR. University reference letters were written with the idea that this was my plan. Yet, there I was, standing outside my first class in computer engineering. I had never even CODED before coming here, let alone considered engineering as an option. Would I even be able to succeed here? Was this the right choice? What if I'm pouring money (and copious amounts of it, I might add) into a degree I hate?<br><br>
+           
+           Now I'm not saying it was the wisest choice, to randomly pursue engineering, (and I do NOT recommend switching your intended career path on a whim), but it was one of the best choices I've ever made. The tunnel vision that I’d had for so long faded, and I was able to fully appreciate the idea of being open to new opportunities.<br><br>
+
+           Now, you'll find me doing things outside of my comfort zone because I want to try something new and because sometimes not knowing is what makes things exciting. (This is how I ended up agreeing to run a half marathon - CRAZY right?) Of course, I still plan things out (let's be real, that kind of thing sticks with you for a lifetime) but I'm no longer opposed to the idea of letting life itself take the reigns.<br><br>
+
+           I guess what I'm trying to say is, there's a delightful art to spontaneity and that perhaps embracing uncertainty is a good thing. I'm still not quite sure of what I'm doing, but that's what makes life fun isn't it?
+      </p>
+    </div>
+
+
+  </body>
+
+  <footer>
+    <div class = "social">
+      <a href="https://www.linkedin.com/in/shuqinancyli/" target="_blank" class="fa fa-linkedin"></a>
+      <a href="mailto:shuqinancy.li@mail.utoronto.ca" class="fa fa-envelope"></a>
+      <a href = "https://www.youtube.com/channel/UCvWEyryyIllQlLMEYh-739g/videos?view_as=subscriber" class = "fa fa-youtube" target="_blank"></a>
+      <a href="https://open.spotify.com/user/nancyli19?si=1QWYB7vdQgSg_CPBt_G3UA" target ="_blank" class="fa fa-spotify"></a>
+    </div>
+  </footer>
+
+</html>
