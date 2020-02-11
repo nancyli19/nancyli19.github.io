@@ -1,0 +1,140 @@
+.navigate {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    word-spacing: 50px;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    margin-left: 17.4em;
+    position: fixed;
+    z-index: 10000;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited { 
+  text-decoration: none; 
+  color: #ACABAA; 
+}
+
+a:hover { 
+  text-decoration: none; 
+  color: #000000; 
+}
+
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  margin-top: 10px;
+}
+
+body {
+    background-color: white;
+}
+
+.description {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-weight: 100;
+    margin-top: 20px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.gallery-image {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-image img {
+  height: 250px;
+  width: 350px;
+  transform: scale(1.0);
+  transition: transform 0.4s ease;
+}
+
+.img-box {
+  box-sizing: content-box;
+  margin: 10px;
+  height: 250px;
+  width: 350px;
+  overflow: hidden;
+  display: inline-block;
+  color: white;
+  position: relative;
+  background-color: white;
+}
+
+.caption {
+  position: absolute;
+  bottom: 5px;
+  left: 20px;
+  opacity: 0.0;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.transparent-box {
+    height: 250px;
+    width: 350px;
+    background-color:rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: background-color 0.3s ease;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+
+.img-box:hover img { 
+  transform: scale(1.1);
+}
+
+.img-box:hover .transparent-box {
+  background-color:rgba(0, 0, 0, 0.5);
+}
+
+.img-box:hover .caption {
+  transform: translateY(-20px);
+  opacity: 1.0;
+}
+
+.img-box:hover {
+  cursor: pointer;
+}
+
+.caption > p:nth-child(2) {
+  font-size: 0.8em;
+}
+
+.opacity-low {
+  opacity: 0.5;
+}
+
+.social {
+  float: right;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    text-decoration: none;
+    color: #ACABAA;
+    margin-right: 25px;
+}
+
+
+.fa:hover { 
+  text-decoration: none; 
+  color: #000000; 
+}
+
