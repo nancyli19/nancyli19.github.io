@@ -3,92 +3,102 @@
     font-size: 20px;
     text-align: center;
     word-spacing: 50px;
-    padding: 10px;
-    margin-top: 7px;
-    margin-bottom: 20px;
-    margin-left: 17em;
+    width: 100%;
+    margin: 0;
+    padding: 0;
     position: fixed;
     z-index: 10000;
 }
 
+.navigate ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navigate li {
+    display: inline;  
+}
+
 .navigate a {
-  color: #ACABAA;
-  text-decoration: none;
-  text-align: center;
+    color: #ACABAA;
+    text-decoration: none;
+    text-align: center;
 }
 
 .navigate a:visited { 
-  text-decoration: none; 
-  color: #ACABAA; 
+    text-decoration: none; 
+    color: #ACABAA; 
 }
 
 .navigate a:hover { 
-  text-decoration: none; 
-  color: #000000; 
+    text-decoration: none; 
+    color: #000000; 
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 .header {
-  background-image: url("header.jpg");
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-  height: 700px;
-  font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .header h1 {
-  text-align: center;
+    text-align: center;
 }
 
 .aboutme h3 {
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 40px;
-  display: inline-block;
-  height: 50px;
-  width: 20%;
-  margin-left: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    display: inline-block;
+    height: 50px;
+    width: 20%;
+    margin-left: 2%;
+    margin-right: 5%;
 }
 
 .aboutme p {
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: 100;
-  font-size: 20px;
-  display: inline-block;
-  width: 40%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    display: inline-block;
+    width: 40%;
 }
 
 .what p {
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: 100;
-  font-size: 20px;
-  display: inline-block;
-  width: 40%;
-  margin-left: 350px;
-  margin-top: 48px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    display: inline-block;
+    width: 40%;
+    margin-left: 30%;
 }
 
 .what h3 {
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 40px;
-  display: inline-block;
-  float: right;
-  margin-right: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    display: inline-block;
+    float: right;
+    margin-left: 2%;
+    margin-right: 5%;
 }
 
 .social {
-  float: right;
+    float: right;
 }
 
 .fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 20px;
-  text-decoration: none;
-  color: #ACABAA;
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    text-decoration: none;
+    color: #ACABAA;
 }
 
 .fa:hover { 
-  text-decoration: none; 
-  color: #000000; 
+    text-decoration: none; 
+    color: #000000; 
 }
 
 
