@@ -140,7 +140,7 @@ body {
 }
 
 .social {
-  float: right;
+    float: right;
 }
 
 .fa {
@@ -149,13 +149,11 @@ body {
     width: 20px;
     text-decoration: none;
     color: #ACABAA;
-    margin-right: 25px;
 }
 
-
 .fa:hover { 
-  text-decoration: none; 
-  color: #000000; 
+    text-decoration: none; 
+    color: #000000; 
 }
 
 
