@@ -101,6 +101,37 @@ img {
     color: #000000; 
 }
 
+@media screen and (max-width: 481px){
+
+.aboutme p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+    display: inline-block;
+    width: 40%;
+}
+
+.what p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+    display: inline-block;
+    width: 40%;
+    margin-left: 30%;
+}
+
+.what h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 80px;
+    display: inline-block;
+    float: right;
+    margin-left: 2%;
+    margin-right: 5%;
+}
+
+
+}
+
 
 
 
