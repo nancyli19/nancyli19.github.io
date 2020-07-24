@@ -88,12 +88,12 @@ h1 {
 
 .transparent-box {
     border-radius: 50%;
-    height: 250px;
-    width: 250px;
+    height: 214px;
+    width: 214px;
     background-color:rgba(0, 0, 0, 0);
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 18px;
+    left: 18px;
     transition: background-color 0.3s ease;
     font-family: 'Josefin Sans', sans-serif;
     
