@@ -1,8 +1,8 @@
 .navigate {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 20px;
+    font-size: 1.5em;
     text-align: center;
-    word-spacing: 50px;
+    word-spacing: 2em;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -42,6 +42,7 @@ img {
 
 .header {
     font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px
 }
 
 .header h1 {
